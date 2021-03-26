@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap");
+
+* {
+  padding: 0 0;
+  margin: 0 0;
+  font-family: "Fira Sans", sans-serif;
+  color: black;
+}
+
+/* navbar */
+
+.navbar {
+  display: flex;
+  padding: 0em 12em;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  background-color: white;
+  width: 100%;
+  height: 10vh;
+}
+
+.link {
+  padding-left: 2em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.cont-landing {
+  display: flex;
+  justify-content: center;
+}
+
+.landing {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10em;
+}
+
+.newIn {
+  padding-top: 5em;
+  display: flex;
+  border: 1px solid black;
+  padding: 2em;
+  margin-top: 5em;
+}
+
+.newInSingle {
+  padding-top: 5em;
+  display: flex;
+  width: 80%;
+}
+
+.newIn img {
+  width: 10rem;
+}
+
+.landing-fotos {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 5em;
+}
+
+.landing-fotos img {
+  padding-top: 5em;
+}
+
+.homeoffice {
+  display: flex;
+  margin: 5em;
+  border: 1px solid black;
+  justify-content: center;
+  width: 80%;
+  padding: 2em 0em;
+  flex-wrap: wrap;
+}
+
+.homeoffice img {
+  width: 15rem;
+  padding: 2em;
+}
+
+.homeoffice h2 {
+  padding: 5em;
+}
+
+.landing-open {
+  background-color: rgb(238, 234, 212);
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 5em;
+}
+
+.landing-open-text {
+  padding: 4em;
+}
+
+.landing-open-text h1 {
+  padding-top: 2em;
+}
+
+.opening {
+  padding: 2em 0;
+}
+
+.opening p {
+  padding: 1em 0;
+}
+
+.slider {
+  height: 50em;
+  margin-top: 5em;
+  padding-top: 10em;
+  background-color: red;
+}
+
+.carousel-root {
+  margin-top: 5em;
+  padding-top: 10em;
+}
+
+.footer {
+  background-color: bisque;
+  display: flex;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  padding: 3em 10em;
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  padding: 3em 10em;
+}
+
+.shopping {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  text-decoration: none;
+}
+
+.shopping img {
+  width: 15em;
+  padding: 0 4em;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  padding-top: 15em;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.about p {
+  width: 50%;
+  padding: 2em;
+}
+
+.about img {
+  padding: 5em;
+}
+
+.form {
+  display: flex;
+  padding: 15em;
+  flex-direction: column;
+}
+
+.form form {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.collection {
+  margin: 15em 0em;
+  width: 100%;
+  background-color: bisque;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  padding-left: 5em;
+  justify-content: left;
+}
+
+.singleitem {
+  text-decoration: none;
+}
+
+.desc {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  padding-left: 15em;
+}
+
+.singleItemPage {
+  display: flex;
+  text-align: center;
+
+  align-items: center;
+  padding: 15em 5em;
+}
+
+.singleItemPage button {
+  background-color: rgb(47, 80, 67);
+  color: white;
+  border: none;
+  padding: 1em;
+  margin: 1em;
+}
+
+.singleItemPage img {
+  width: 30em;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    display: flex;
+    padding: 0 0;
+    margin: 0 0;
+    flex-direction: column;
+    background-color: white;
+    height: 30vh;
+  }
+
+  .landing-open img {
+    max-width: 80%;
+  }
+
+  .cont-landing {
+    width: 100%;
+  }
+  .footer {
+    display: block;
+  }
+
+  .carousel-slider {
+    width: 3px;
+  }
+}
